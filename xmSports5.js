@@ -33,7 +33,7 @@ let dataJSON = "%5B%7B%22data_hr%22%3A%22%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F9L%
 const headers = {
   'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
 }
-let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAAH3tqFLhDiF2_P5ubf17GdSbXDNvtdp8KoNsXWarSmLeqGJ-s7c_BkWkEUd1-u4r3vUWs9Eg56XjwSBxYSvBdVeC4MCKdUh7Bbbgm5Z2QdYZZ0KJJKj6JQAfS64KLVULtQy61k3KZj4iLaV4Yannd1bXDexxcaQoDs0B__rVi-PFkkBbap5c3wpeD2sh1nPC0X_XWXTbZeY_qHgSO7S52mE';
+let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAADw-iLAkwZvH1w61O0OKFyqkQSVRxmWv5Z7W-mEOahgUw3Fyo3_A6bn5hLMIZGIcWoTVN_Xm5HZHIXeFNLefZRFFMowMsPEfrF0rVyL-J4Q38SSnoCkselK2G96vbaLjTj50b8JLm5sABymsHfCt7nGJTT8ZDy9rweIxoq-BkKXPtt0odq956U5TpdUAaAxHcs9TrZtrtbECvWqpeLM7EOU';
 //需要修改的运动步数波动范围，脚本默认修改步数范围为1w9到2w5
 const step = randomFriendPin($.getdata('xmMinStep')*1 || 20000, $.getdata('xmMaxStep')*1 || 30000);
 function getToken() {
