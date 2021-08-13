@@ -33,7 +33,7 @@ let dataJSON = "%5B%7B%22data_hr%22%3A%22%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F9L%
 const headers = {
   'User-Agent':'Dalvik/2.1.0 (Linux; U; Android 9; MI 6 MIUI/20.6.18)'
 }
-let login_token = '';
+let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAAIO4E0xxM_HFijTkHR5qzHAEGqz0frpH5j9jbT4q_ilWl7Tq-j8cwc5mnB-RLz4UAJ_SkEuYdpgFsrLo2iANaAhdJuprPMjLlCyCT1L98M9lkiCgsaLxL6BLFgdScqk3KmkVnpdyto9pNszfqea1-VgH2g97FTmENTOQUf6r6T6pjhscG2_gdv9hfycmPOl62jHzywtOdMVwwWeCYdACPxQ';
 //需要修改的运动步数波动范围，脚本默认修改步数范围为1w9到2w5
 const step = randomFriendPin($.getdata('xmMinStep')*1 || 20000, $.getdata('xmMaxStep')*1 || 29999);
 function getToken() {
