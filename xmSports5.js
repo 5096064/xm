@@ -35,7 +35,7 @@ const headers = {
 }
 let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAADT7rabmAljiTvRpK1lI1mQ77SQNrJqwweZrJy6B3_QEbMy5r_measvgE_SCKKeDYUaL3JtJafVu-OBno-h2pxyktuJZTMAxzZRKP2xb1gsfLBbaWRYFx_KdqX14sbuGbLL9F0Oh9ddQMJyJOb-orfZlp31gwEzgBADZ3jx8EZLJM1iQIJ8NrRZTi5O-xNT7uxHqe-92mvzqO2RX0COHlGU';
 //需要修改的运动步数波动范围，脚本默认修改步数范围为1w9到2w5
-const step = randomFriendPin($.getdata('xmMinStep')*1 || 20000, $.getdata('xmMaxStep')*1 || 25000);
+const step = randomFriendPin($.getdata('xmMinStep')*1 || 20000, $.getdata('xmMaxStep')*1 || 29999);
 function getToken() {
   if ($response.body) {
     const body = JSON.parse($response.body);
