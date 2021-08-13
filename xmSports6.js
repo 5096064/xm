@@ -33,9 +33,9 @@ let dataJSON = "%5B%7B%22data_hr%22%3A%22%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F9L%
 const headers = {
   'User-Agent':'Dalvik/2.1.0 (Linux; U; Android 9; MI 6 MIUI/20.6.18)'
 }
-let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAAHQnNVxUjtC0_elw7865mpcpNTdzf-XW9g_taWMLv24fMD4qwXp2oqTgBxK-muLupe6Y_3n8dLz1EU_SQ2CnIP_qA3dK8Eb8RldMNf0x07dYcwgwq_CbNEy4AeIIpNvMfWvL5abQ0akCd69-ndPI90P45RDL299XVkSH9B7Ejw7z5hzLh7iuiAaHIv-BLalzYip2u92gsPicx5H0F9TzIHo';
+let login_token = '';
 //需要修改的运动步数波动范围，脚本默认修改步数范围为1w9到2w5
-const step = randomFriendPin($.getdata('xmMinStep')*1 || 20000, $.getdata('xmMaxStep')*1 || 25000);
+const step = randomFriendPin($.getdata('xmMinStep')*1 || 20000, $.getdata('xmMaxStep')*1 || 29999);
 function getToken() {
   if ($response.body) {
     const body = JSON.parse($response.body);
