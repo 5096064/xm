@@ -33,7 +33,7 @@ let dataJSON = "%5B%7B%22data_hr%22%3A%22%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F9L%
 const headers = {
   'User-Agent':'Dalvik/2.1.0 (Linux; U; Android 9; MI 6 MIUI/20.6.18)'
 }
-let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAAJM1eT9Pt5-Gnizwj_5qzDQ5ZVoCt_Ph8tMfYidIWsqpryhJvcdXD5_hRRdCF0ON7g812-oQcWQqnUl-CaV12R4nMlbvdYhWCtUT7iiaXzD-SCVav-1HbCfrPQHZg699X_9BVJekliYPPXeukAVw6KFmmgAzSeWGau8_HjifhlCdgvtdYS5oQi3gMV5gDtSguAf0Y688dIkndCgLTPXkwMk';
+let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAAJOcwVX5FNc0Ayt5vOlT_Chgd2CxdXGju2B_GUA_zq4P_42OcnEBKPbgS8xQDkrn7GgWPj-hQME500PfPEA4k9zY5uOGk-SK4YsZljs2Ru0VXsqBAaSfH3BXfHNOEBu2PLA8D66bSFd55UMn-R8kPRUSlLors_M2qVQLl-wkONYFY9Kil14vLNvGFZ2yGxPysLPDlvaRpNFW8nDWMz0cLYc';
 //需要修改的运动步数波动范围，脚本默认修改步数范围为1w9到2w5
 const step = randomFriendPin($.getdata('xmMinStep')*1 || 20000, $.getdata('xmMaxStep')*1 || 29999);
 function getToken() {
